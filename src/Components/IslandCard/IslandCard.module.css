@@ -1,0 +1,47 @@
+.card {
+    max-width: 392px;
+    min-height: 551px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: rgba(141, 198, 211, 0.15) 0px 5px 15px;
+    border-radius: 5px;
+    margin-top: 64px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 8px;
+}
+
+.card p{
+    color: var(--gray-color);
+    padding: 8px;
+}
+
+
+
+.rating_container{
+   display: flex;
+   justify-content: space-between;
+   gap: 25px;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    width: 121px;
+    height: 33px;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+font-weight: 500;
+color: white;
+border-radius: 5px;
+}
